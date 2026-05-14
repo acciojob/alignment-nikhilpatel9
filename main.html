@@ -4,13 +4,136 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title">HTML Assignment 3</title>
+	<style > .middle {
+            border: 1px solid black;
+            border-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        
+        .middle td, .middle th {
+            border: 1px solid black;
+            padding: 1px;
+        }
+
+        /* Color classes */
+        .green {
+            background-color: green;
+            color: white;
+        }
+
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+
+        /* Alignment classes */
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        h1 {
+            text-align: center;
+        }</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<h1>HTML Assignment #3</h1>
+ <table  style="border: 1px solid black; border-spacing: 1px; border-collapse: separate;" id="table-1" class="middle">
+	 <tr>
+		 <td id="t11">
+			 left
+		 </td>
+		 <td id="t12" >
+			 center
+		 </td>
+		 <td id="t13" class="right">
+			 right
+		 </td>
+	 </tr>
+	  <tr class="center" >
+		 <td>
+			 left
+		 </td>
+		 <td >
+			 center
+		 </td>
+		 <td class="right">
+			 right
+		 </td>
+	 </tr>
+	  <tr>
+		 <td>
+			 left
+		 </td>
+		 <td >
+			 center
+		 </td>
+		 <td class="right">
+			 right
+		 </td>
+	 </tr>
+ </table>
 
+	<table border='1'  id="table-2" class="middle">
+		<tr >
+			<td id="t21" colspan="6">
+				a
+			</td>
+		</tr>
+		<tr >
+			<td rowspan="4" >a </td>
+			<td> a</td>
+			<td> a</td>
+			<td>a </td>
+			<td> a</td>
+			<td> a</td>
+		</tr>
+		<tr>
+			<td> a</td>
+			<td colspan="3"  rowspan="2">a </td>
+			<td >a </td>
+		
+			
+		</tr>
+		<tr>
+			<td> a</td>			
+			<td>a </td>		
+		</tr>
+		<tr>
+			
+			<td > a</td>
+			<td>a </td>
+			<td> a</td>
+			<td>a </td>
+			<td> a</td>
+		</tr>
+		<tr>
+			<td colspan="6">a </td>
+		</tr>
+	</table>
+	<table id="table-3" class="middle">
+		<tr>
+			<td style="background-color:green;"></td>
+		</tr>
+		<tr>
+			<td id="t-image">
+				<img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg">
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:blue;">
+				
+			</td>
+		</tr>
+	</table>
 </body>
 
 </html>
